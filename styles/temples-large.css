@@ -1,0 +1,17 @@
+/* Larger Viewports */
+@media only screen and (min-width: 32rem) {
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .temple-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
